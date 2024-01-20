@@ -51,4 +51,4 @@ Este projeto é licenciado sob a MIT License - veja o arquivo LICENSE.md para de
  
 ## Download
  
-[Loader Releases](https://github.com/seu-repositorio/Loader/releases)
+[Loader Releases](https://github.com/GuilhermeP96/Loader/releases)https://github.com/GuilhermeP96/Loader/releases
