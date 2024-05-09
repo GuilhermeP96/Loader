@@ -24,7 +24,7 @@ public class DataFormatter {
             return null;
         }
 
-        // Identifica se È uma data, uma hora ou uma data com hora
+        // Identifica se √© uma data, uma hora ou uma data com hora
         String formatPattern;
         SimpleDateFormat outputFormat;
 
@@ -104,7 +104,7 @@ public class DataFormatter {
             DecimalFormat df = new DecimalFormat("0.##"); // Use "." as decimal separator for Java
             return df.format(Double.parseDouble(value));
         } else {
-            // N„o h· casas decimais, ent„o formate como n˙mero inteiro
+            // N√£o h√° casas decimais, ent√£o formate como n√∫mero inteiro
             return value;
         }
     }
@@ -115,6 +115,7 @@ public class DataFormatter {
             case "DATE":
             case "TIMESTAMP":
                 return formatDate(value);
+            case "BINARY_DOUBLE":
             case "NUMBER":
                 return formatDecimal(value);
             default:
